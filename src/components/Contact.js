@@ -72,7 +72,7 @@ export default function Contact() {
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             {" "}
-            Work with me
+            Contact me
           </h2>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
