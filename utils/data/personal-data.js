@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Parul Sachan",
-  profile: '/profile.png',
+  profile: '/myPhoto.jpeg',
   designation: "Software Developer",
-  description: "My name is Parul Sachan. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "I'm a passionate and self-driven programmer with a deep interest in web application development. I specialize in building clean, responsive, and scalable solutions using React, Node.js, and Angular.js. I love solving real-world problems through code and continuously explore new tools and technologies. With a strong focus on user experience and code quality, I strive to deliver impactful and maintainable applications.",
   email: 'parulsachan0906@gmail.com',
   phone: '8707836955',
   address: '1803, Logix Blossom County, Sector-137, Noida, UP ',
