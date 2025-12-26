@@ -5,14 +5,13 @@ export const projectsData = [
     description:
       "Developed a role-based Teaching Assistant (TA) Management System to streamline interactions between professors and students, leveraging React.js for an interactive front-end and AWS Lambda for a scalable, serverless back-end.",
     tools: ["React.js", "AWS Lambda", "TailwindCSS"],
-    role: "Full Stack Developer",
     keyFeatures: [
       "Enabled professors to manage TAship requirements, review applications, and accept or reject candidates via an intuitive interface.",
       "Designed user-friendly features for students to browse and apply for TA positions seamlessly.",
     ],
     impact:
       "Improved efficiency of the TA selection process by automating application workflows and reducing manual coordination.Enhanced user experience with a responsive and accessible front-end, increasing engagement for both professors and students.",
-    Github: "https://github.com/amanverma685/spe_major_project",
+    github: "https://github.com/amanverma685/spe_major_project",
     demo: "",
   },
   {
@@ -29,7 +28,6 @@ export const projectsData = [
       "Eureka",
       "Bootstrap CSS",
     ],
-    role: "Full Stack Developer",
     keyFeatures: [
       "Designed an intuitive React-based UI allowing patients to grant or revoke consent for medical document access.",
       "Implemented microservices for authentication, patient, hospital, and central management with API Gateway for efficient request routing.",

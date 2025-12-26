@@ -1,17 +1,19 @@
 export const personalData = {
   name: "Parul Sachan",
-  profile: '/myPhoto.jpeg',
+  profile: "/myPhoto.jpeg",
   designation: "Software Developer",
-  description: "I'm a passionate and self-driven programmer with a deep interest in web application development. I specialize in building clean, responsive, and scalable solutions using React, Node.js, and Angular.js. I love solving real-world problems through code and continuously explore new tools and technologies. With a strong focus on user experience and code quality, I strive to deliver impactful and maintainable applications.",
-  email: 'parulsachan0906@gmail.com',
-  phone: '8707836955',
-  address: 'Bangalore, Karnataka',
-  github: 'https://github.com/parulsachan86',
-  facebook: '',
-  linkedIn: 'https://www.linkedin.com/in/parul-sachan/',
-  twitter: '',
-  stackOverflow: '',
+  description:
+    "I’m a software engineer with an M.Tech in Computer Science and Engineering, passionate about building scalable full-stack applications using React.js and Spring Boot. With strong foundations in core CS subjects like Operating Systems, DBMS, and Networking, I enjoy solving problems by applying both theory and practical implementation.",
+  email: "parulsachan0906@gmail.com",
+  phone: "8707836955",
+  address: "Bangalore, Karnataka",
+  github: "https://github.com/parulsachan86",
+  facebook: "",
+  linkedIn: "https://www.linkedin.com/in/parul-sachan/",
+  twitter: "",
+  stackOverflow: "",
   leetcode: "https://leetcode.com/u/parulsachan86/",
   devUsername: "parulsachan0906",
-  resume: "https://drive.google.com/file/d/1NYX9k79s7od7v_vSRN3fEHTriUhIP93f/view?usp=sharing"
-}
+  resume:
+    "https://drive.google.com/file/d/15SmZUWRTX3oOMfCbq8QeAwWrFTdjTBGO/view?usp=drive_link",
+};

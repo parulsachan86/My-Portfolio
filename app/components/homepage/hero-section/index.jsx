@@ -41,11 +41,11 @@ function HeroSection() {
                 icon: <BsLinkedin size={28} />,
                 label: "LinkedIn",
               },
-              {
-                href: personalData.facebook,
-                icon: <FaFacebook size={28} />,
-                label: "Facebook",
-              },
+              // {
+              //   href: personalData.facebook,
+              //   icon: <FaFacebook size={28} />,
+              //   label: "Facebook",
+              // },
               {
                 href: personalData.leetcode,
                 icon: <SiLeetcode size={28} />,

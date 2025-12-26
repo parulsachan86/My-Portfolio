@@ -110,21 +110,21 @@ function ProjectCard({ project }) {
         </div>
 
         {/* Role */}
-        <div>
+        {/* <div>
           <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">My Role</h3>
           <p className="mt-2 text-orange-400 text-sm md:text-base">{project.role}</p>
-        </div>
+        </div> */}
 
         {/* Key Features */}
         <div>
           <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">Key Features</h3>
           <ul className="mt-2 space-y-2 text-gray-300 text-sm md:text-base">
-            {/* {project.keyFeatures.map((feature, i) => (
+            {project.keyFeatures.map((feature, i) => (
               <li key={i} className="flex items-start">
                 <span className="text-cyan-400 mr-2">•</span>
                 <span>{feature}</span>
               </li>
-            ))} */}
+            ))}
           </ul>
         </div>
 
@@ -137,11 +137,11 @@ function ProjectCard({ project }) {
         </div>
 
         {/* Links (if available) */}
-        {(project.code || project.demo) && (
+        {(project.github || project.demo) && (
           <div className="flex space-x-4">
-            {project.code && (
+            {project.github && (
               <a
-                href={project.code}
+                href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors duration-300"
