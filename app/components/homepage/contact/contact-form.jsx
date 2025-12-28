@@ -23,7 +23,6 @@ function ContactForm() {
 
   const handleSendMail = async (e) => {
     e.preventDefault();
-
     if (!userInput.email || !userInput.message || !userInput.name) {
       setError({ ...error, required: true });
       return;
@@ -35,10 +34,14 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
-      );
+      
+      // const res = await axios.post(
+      //   // `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+      //   // userInput
+      //   `${"/api/contact", userInput}`
+      // );
+      const res = await axios.post("/api/sendEmail", userInput);
+
 
       toast.success("Message sent successfully!");
       setUserInput({

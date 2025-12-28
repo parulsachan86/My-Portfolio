@@ -42,13 +42,13 @@ function Experience() {
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
-                      <Image
+                      {/* <Image
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}
                         height={200}
-                        className="absolute bottom-0 opacity-80"
-                      />
+                        className="absolute bottom-0 opacity-80 "
+                      /> */}
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {experience.duration}
