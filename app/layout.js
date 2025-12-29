@@ -7,6 +7,7 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+import { icons } from "react-icons";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
